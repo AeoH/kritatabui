@@ -1,2 +1,43 @@
 # KritaTabUI
 ![] (https://github.com/AeoH/kritatabui/blob/master/iamges/20200811215714.jpg)
+
+
+Boton		tooltip				功能提示			ID
+----------------------------------------------------------------------------------------------------------------------------------
+Sav		Save as				保存文件			file_save			Ctrl+s
+Ftp		Fit to Page			满窗口显示，小键盘2					Numpad_2	
+B+		Brush Size+++			放大画笔			increase_brush_size		Ctrl+[
+B-		Brush Size---			缩小画笔			decrease_brush_size		Ctrl+]
+Z+		Zoom out				放大画布			view_zoom_out		Ctrl+-
+Z-		Zoom in				缩小画布			view_zoom_in		Ctrl++/Ctrl+=
+Und		Undo				撤消上一步		edit_undo			Ctrl+z
+Red		Redo				重做上一步		edit_redo			
+Dese		Deselect				取消选择			deselect
+Ro L		Rotate canvas left			向左旋转画布		rotate_canvas_left
+Ro R		Rotate canvas right			向右旋转画布		rotate_canvas_right
+ResR		Reset canvas rotation		重置画面旋转		reset_canvas_rotation	
+
+V						设置成V键：按住临时直线
+Spac						设置成Spacebar空格键：按住变为临时平移小手工具
+Ctrl						设置成Ctrl键：按住左键吸色
+Ctrl+F12						设置成自定义快捷键Ctrl+F12：弹出绘画时按鼠标右键出来的popup dock
+----------------------------------------------------------------------------------------------------------------------------------
+Fit to page 找不到，暂用Zoom to 100%
+Fit to page	 满窗口显示，小键盘2: 'numpad_2':0x62,
+下面四个快捷键不会设置，还有上面的Fit to Page小键盘2也不会
+小键盘2: 'numpad_2':0x62,	左边Ctrl: 'left_control':0xA2,  空格：'spacebar':0x20,
+暂时不要：
+
+NeL		New Layer			新建图层			add_new_paint_layer
+		以上面部分工具不收缩时全部显示#474747
+
+		Circle				圆环：四等分设置四个功能区，直接旋转至对应区域，
+						单击选中并展开对应区域，进入1、2功能时，
+						执行旋转放大缩小功能
+						双击取消选中，返回无选择状态
+						连续三击圆环，收缩所有按键，只显示圆环
+						1画笔大小，2画布大小，选中后通过旋转改变大小；
+						3画笔预设，4功能滤镜，这两项还没想好
+								  
+		下方为三个按键，工具不收缩时全部显示
+P		Color Picker			拾色工具		
